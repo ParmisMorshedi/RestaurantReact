@@ -1,0 +1,74 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* List Styles for  Tables */
+ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 800px; /* Added max width for better layout */
+    margin: 0 auto;
+    color:rgb(75, 69, 69);
+}
+
+li {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #3a3737;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    background-color: #707173;
+    color: rgb(11, 11, 11);
+}
+
+label{
+    color:black
+}
+
+.error {
+    text-align: center;
+    font-size: 18px;
+    color: rgb(218, 21, 21); /* Red for error messages */
+}
+
+
+/* No data message */
+p {
+    text-align: center;
+    font-size: 23px;
+    color: #d20d0d;
+   
+    
+}
+
+/* Responsive styling */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    li {
+        font-size: 14px;
+    }
+}
